@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* Menu & Header style */
+.nav{
+    width: 1365px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    margin-left: 90px;
+}
+.menu li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: 40px;
+}
+.get-started{
+    background-color: rgb(255, 77, 0);
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 5px;
+    padding: 10px 5px;
+    border: none;
+    float: right;
+    cursor: pointer;
+    margin-left: 130px;
+}
+
+/* Menu & Header on hover style */
+a:hover{
+    color: rgb(255, 77, 0);
+}
+.get-started:hover{
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Section Goes here  */
+.container1{
+    width: 1365px;
+    height: 66vh;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+.con1a{
+    width: 665px;
+    height: 55vh;
+    margin-left: 75px;
+}
+
+.con1b{
+    width: 665px;
+    height: 55vh;
+    margin-left: 115px;
+    margin-right: 20px;
+}
+
+.con1a > h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.con1a > p, .con2a > p, .con2b1 > p,
+.con2b2 > p, .con2b3 > p, fieldset > p{
+    color: grey;
+}
+
+.con1-button{
+    background-color: rgb(255, 77, 0);
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 5px;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.container2{
+    width: 1365px;
+    height: 114vh;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+.con2a{
+    width: 625px;
+    height: 130vh;
+    margin-left: 75px;
+    background-image: url(img/bg-tablet-pattern.svg);
+    background-size: contain;
+    background-position: 180% 5% 15%;
+}
+.con2b{
+    width: 675px;
+    height: 110vh;
+    margin-left: 115px;
+    margin-right: 20px;
+}
+
+.con2b1,.con2b2,.con2b3{
+    width: 675px;
+    height: 33vh;
+}
+.con2b1 > button,.con2b2 > button,.con2b3 > button{
+    background-color: rgb(255, 77, 0);
+    border-radius: 30px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 8px;
+    padding: 5px 15px;
+    border: none;
+}
+.text{
+    margin-top: -30px;
+    margin-left: 65px;
+}
+
+.container3{
+    width: 1365px;
+    height: 66vh;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+}
+
+.said{
+    text-align: center;
+}
+.fieldseter{
+    display: flex;
+}
+legend img{
+    border-radius: 50%;
+    text-align: center;
+}
+
+fieldset{
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(237, 213, 213);
+    width: 60vw;
+    height: 50vh;
+}
+
+.con3-button{
+    background-color: rgb(255, 77, 0);
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 5px;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 620px;
+}
+/* Download stlying */
+.holder{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container{
+    background-color: rgb(247, 137, 90);
+    width: 200px;
+    height: 80px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+.holder, .container > strong,.holder, .container >p{ 
+    color: white;
+}
+
+.holder > .container i{
+    color: white;
+    font-size: 2rem;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.last{
+    background-color: rgb(247, 137, 90);
+    width: 1365px;
+    height: 28vh;
+    background-image: url(img/bg-simplify-section-desktop.svg);
+}
+
+.team{
+    color: white;
+    margin-left: 55px;
+    padding-top: 40px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.last-button{
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(255, 77, 0);
+    margin-top: -60px;
+    margin-right: 80px;
+    font-family: "Poppins", sans-serif;
+    font-size: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.footer{
+    background-color: rgb(5, 5, 31);
+    height: 40vh;
+    width: 1365px;
+    display: flex;
+}
+.div1{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.div1 img{
+    margin-top: 30px;
+}
+
+.div2{
+    margin-top: 10px;
+    margin-left: 170px;
+    line-height: 40px;
+}
+
+.social-icon ul{
+    list-style: none;
+    text-decoration:none;
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 20px;
+}
+
+.links li{
+    list-style: none;
+    text-decoration: none;
+}
+.links > li > a{
+    color: white;
+}
+.social-icon ul li:hover, .links > li >a:hover{
+    color: rgb(255, 77, 0);
+}
+.div3{
+    margin-top: 10px;
+    margin-left: 170px;
+}
+.div3 >p {
+    color: white;
+}
+
+.div3 input{
+    border-radius: 20px;
+    height: 40px;
+    width: 240px;
+}
+
+input::placeholder{
+    padding-left: 20px;
+}
+
+.div3 > button{
+    background-color: rgb(255, 77, 0);
+    border-radius: 30px;
+    height: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 8px;
+    padding: 5px 15px;
+    border: none;
+}
+/* Button on hover */
+.div3 > button:hover, .con1-button:hover,.con3-button:hover{
+    background-color: rgb(230, 162, 133);
+}
+
+/* Start Mdeia Queries here */
